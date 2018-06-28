@@ -1,0 +1,53 @@
+.list-header {
+  padding: 1.3rem 1rem;
+  border-bottom: 1px solid hsla(0,0%,59%,.1);
+}
+
+.list-header .list-nav, .list-header .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.list-header .list-nav, .list-header .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.list-header .nav-list {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.nav-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.list-header .left .nav-item {
+  padding: 0 1.2rem;
+  font-size: 1.16rem;
+  border-right: 1px solid hsla(0,0%,59%,.2);
+}
+
+.list-header .nav-list .nav-item.active a, .list-header .nav-list .nav-item a:hover {
+  color: #007fff;
+}
+
+.nav-item>a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

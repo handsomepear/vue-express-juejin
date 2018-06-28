@@ -1,0 +1,70 @@
+@charset 'utf-8';
+@import url('./card.css');
+@import url('./list-header.css');
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.main-container.with-view-nav>.view{
+  margin-top: 5.6rem;
+}
+
+
+.collection-list-box {
+  width: 100%;
+  margin-right: 21.667rem;
+  background-color: #fff;
+}
+
+.list-header .left .nav-item {
+  padding: 0 1.2rem;
+  font-size: 1.16rem;
+  border-right: 1px solid hsla(0,0%,59%,.2);
+}
+
+.list-header .left .nav-item:last-child {
+  border: none;
+}
+
+.collection-list {
+  padding: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#collect .item {
+  margin: 0 0 1.4rem;
+  width: 100%;
+  height: 13.3rem;
+  box-sizing: border-box;
+}
+
+.one-collection {
+  position: relative;
+  height: 100%;
+}
+.one-collection .thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+.avatar, .thumb {
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+

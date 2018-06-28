@@ -1,0 +1,272 @@
+@charset 'utf-8';
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.main-container.with-view-nav>.view {
+  margin-top: 5.6rem;
+}
+
+
+
+.column-entry-list {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+
+
+.column-entry-list .list-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1.3rem 2rem;
+}
+.column-entry-list .list-title {
+  font-size: 1.3rem;
+  color: #000;
+}
+
+
+.column-entry-list .nav-item {
+  padding: 0 .8rem;
+  font-size: 1.16rem;
+  border-right: 1px solid hsla(0,0%,59%,.2);
+}
+
+.column-entry-list .nav-item:last-child {
+  border: none;
+  padding-right: 0;
+}
+.column-entry-list .nav-item.active a {
+  color: #007fff;
+}
+
+#column .item {
+  padding: 2.5rem;
+  border-bottom: 1px solid hsla(0,0%,59%,.1);
+}
+
+.user-info-row .user-info, .user-info-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.user-info-row {
+  font-size: 1.16rem;
+  padding: .3rem 0 1.3rem;
+  color: #8b8b8b;
+}
+
+.user-info-row .user-info, .user-info-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.avatar {
+  display: inline-block;
+  background-color: #eee;
+}
+
+.user-info-row .user-info .avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.user-info-row .user-info .username:after {
+  content: "\B7";
+  margin: 0 .5rem;
+  display: inline-block;
+}
+.avatar, .thumb{
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.abstract-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.abstract-row .title {
+  width: 100%;
+  margin-bottom: .8rem;
+  font-size: 2rem;
+  color: #000;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: .04rem;
+}
+.abstract-row .title:visited {
+  color: #909090;
+}
+
+.abstract-row .abstract {
+  width: 100%;
+  height: 7.800000000000001rem;
+  line-height: 1.5;
+  letter-spacing: .02rem;
+  color: #8b8b8b;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 1.3rem;
+}
+.abstract-row .abstract.read {
+  height: auto
+}
+
+
+.action-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  color: rgba(24,37,50,.3);
+}
+
+.action-row .action-list .action, .action-row .action-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.action-row .action-list .action, .action-row .action-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.action-row .action-list .action{
+  cursor: pointer;
+  padding: 0 1rem;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #f1f1f1;
+  border-radius: 1px;
+  background-color: #fff;
+  transition: color,border-color,background-color .3s;
+}
+
+.action-row .action-list .action .icon {
+  font-size: 1.2rem;
+}
+@font-face {
+  font-family: iconfont;
+  src:  url(../fonts/iconfont.woff?t=1470110358) format("woff")
+}
+
+.iconfont{
+  font-family: iconfont!important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.icon-xlcollection:before {
+  content: "\E600"
+}
+
+.icon-xlchatbox:before {
+  content: "\E601"
+}
+
+.action-row .action-list .action.comment {
+  margin-left: -1px;
+}
+
+.action-row .action-list .action.clickable:not(.active):hover {
+  color: #9f9f9f;
+  background-color: hsla(0,0%,95%,.5);
+}
+.icon-xlchatbox:before {
+  content: "\E601";
+}
+
+.entry-action-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.read-action {
+  margin-left: 2rem;
+  position: relative;
+}
+
+.thumb-row {
+  position: relative;
+  padding-top: 33.4%;
+  margin-bottom: 2rem;
+}
+
+.thumb-row .thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 50%/cover;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.abstract-row .abstract.withThumb {
+  height: 1.95rem;
+}
+.abstract-row .abstract.withThumb.read {
+  height: auto;
+}

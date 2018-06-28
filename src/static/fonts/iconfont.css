@@ -1,0 +1,36 @@
+
+@font-face {font-family: "fengwei";
+  src: 
+  url(../fonts/iconfont.woff) format('woff'); /* chrome, firefox */
+}
+
+.fengwei {
+  font-family:"fengwei" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fw-info:before { content: "\e60b"; }
+
+.fw-wallet:before { content: "\e60c"; }
+
+.fw-write:before { content: "\e60d"; }
+
+.fw-draft:before { content: "\e60e"; }
+
+.fw-collection:before { content: "\e60f"; }
+
+.fw-logout:before { content: "\e611"; }
+
+.fw-person:before { content: "\e612"; }
+
+.fw-setting:before { content: "\e613"; }
+
+.fw-like:before { content: "\e614"; }
+
+.fw-tag:before { content: "\e615"; }
+
+.fw-link:before { content: "\e616"; }
+

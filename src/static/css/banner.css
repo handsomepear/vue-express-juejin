@@ -1,0 +1,65 @@
+.banner {
+  background: #4a78da;
+  overflow: hidden;
+  position: relative;
+}
+
+.welcome__banner {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.banner-inner {
+  width: 100%;
+  min-height: 250px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-inner .slogan-img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-image: url('../images/pattern.ce09743.svg');
+  background-repeat: no-repeat;
+  -webkit-transform: translateX(-240px);
+  transform: translateX(0);
+  background-size: 130%;
+  background-position: 180% 60%;
+  opacity: .65;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-inner .slogan {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+
+  text-align: left;
+  width: auto;
+  max-width: 100%;
+  margin-left: 24px;
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+.banner-inner .slogan h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.banner-inner .slogan ul {
+  line-height: 1.8;
+  font-weight: 300;
+}
